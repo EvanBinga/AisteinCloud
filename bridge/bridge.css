@@ -1,0 +1,447 @@
+body{
+    width: 1280px;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  /* header */
+  
+  
+  * {
+    padding: 0;
+    margin: 0;
+}
+
+  .dropdown{
+    display: none;
+    position: absolute;
+    top: 90%;
+    left: 0px;
+    height: 200px;
+    padding-top: 10px;
+  }
+  
+  
+  .drop-link-color{
+    color: #ffffff;
+  }
+  
+  .drop-link-color:hover{
+    color: #b9b9b9;
+  }
+  
+  .dropdown-one{
+    display: none;
+    position: absolute;
+    height: 200px;
+    padding-top: 10px;
+    left: 0;
+    top: 90%;
+  }
+
+
+  
+  .dropdown-two{
+    display: none;
+    position: absolute;
+    top: 90%;
+    height: 200px;
+    padding-top: 10px;
+    left: 0;
+  }
+  
+  .dropdown-tree{
+    display: none;
+    position: absolute;
+    top: 90%;
+    height: 200px;
+    padding-top: 10px;
+    left: 0;
+  }
+  
+  
+  
+  nav ul li:hover > ul {
+    display:inherit;
+  }
+  
+  
+  nav  ul ul li {
+    min-width:170px;
+    float:none;
+    display:list-item;
+    position: relative;
+    list-style-type: none;
+    margin-top: 5px;
+    font-size: 13px;
+  }
+  
+  
+  
+  header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    margin: 0 auto; 
+    display: flex;
+    top: 0;
+    background-color: #0C0C0C;
+    z-index: 1200;
+    background-attachment: fixed;
+
+
+
+  }
+  
+  
+.list{
+  position: relative;
+  left: 50px;
+}
+  
+
+  a{
+    text-decoration: none;
+    color: #BDBDBD;
+  }
+  .navbar{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+  }
+  
+  
+  .list .list-item{
+    display: inline;
+    cursor: pointer;
+    color: #ffffff;
+    margin-left: 61px;
+  }
+  
+
+  .list-item{
+    position: relative;
+    top: 20px;
+  }
+
+
+
+  
+  #text-width{
+    width: 680px;
+  }
+  
+  
+  .button-login {
+    color: #ffffff;
+    text-decoration: none;
+    position: relative;
+    top: 16px;
+    left: 250px;
+  
+  }
+  .button-demo {
+    background-color: #00ADD4;
+    width: 126px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    color: #FFFF;
+    border-radius: 2px;
+    position: relative;
+    left: 305px;
+    top: 7px;
+  }
+/*  */
+
+.fixedContainer{
+    width: 1280px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.linkone{
+    position: relative;
+    color: #00ADD4;
+    z-index: 9999999;
+    font-size: 25px;
+    left: 78px;
+    bottom: 800px;
+    cursor: pointer;
+    
+}
+
+.linktwo{
+    position: relative;
+    color: #00ADD4;
+    top: -1520px;
+    left: 740px;
+    cursor: pointer;
+    z-index: 9999998;
+    font-size: 25px;
+}
+
+.svgbrig{
+    margin-top: 550px;
+    position: relative;
+    top: 500px;
+    left: 6%;
+}
+.camerasLanding{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.cameraImg{
+    position: relative;
+    left: 35%;
+    top: -50px;
+}
+
+
+.landingCameras{
+    font-size: 96px;
+    text-align: center;
+    position: relative;
+    top: 70px;
+}
+
+.scroll{
+    position: relative;
+    left: 17%;
+}
+
+/*  */
+.infoCamera{
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+    top: 300px;
+}
+
+.iconBoxCamera{
+    position: relative;
+    left: 100px;
+}
+
+.iconText{
+    border-bottom: 1px solid #878787;
+    padding-bottom: 10px;
+    position: relative;
+    top: 70px;
+}
+.iconImg{
+    width: 100px;
+    position: relative;
+    top: 70px;
+}
+
+
+
+.svgImg{
+    width: 300px;
+    position: relative;
+    top: 1200px;
+}
+
+.imgSvg{
+    position: relative;
+    top: 500px;
+    left: 100px;
+}
+
+.boxphoto{
+    width: 1280px;
+    margin: 0 auto;
+    background-color: #FBFBFB;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 2400px;
+    
+}
+
+.photoCamer{
+    position: relative;
+    top: 600px;
+    left: 70px;
+}
+
+
+.boxSize{
+    width: 100%;
+    height: 1200px;
+    position: relative;
+    top: 700px;
+}
+
+.svgimgOne{
+    position: relative;
+    left: 20%;
+    top: 120px;
+}
+
+/*  */
+  footer {
+    margin-top: 650px;
+    }
+    
+    .footer-box{
+    
+      width: 1280px;
+    
+    }
+    
+    .logo-footer{
+      width: 120px;
+      height: 70px;
+      position: relative;
+      top: 106px;
+    }
+    .flex-footer{
+      display: flex;
+      justify-content: center;
+    }
+    
+    .list-footer{
+      margin-left: 36px;
+      position: relative;
+      bottom: 18px;
+      left: 95px;
+    
+    }
+    
+    .item-list{
+      font-size: 14px;
+      color: #545454;
+      list-style-type: none;
+      cursor: pointer;
+      margin-top: 12px;
+      /* 24 */
+    }
+    
+    
+    .item-list-color{
+      color: #000;
+      list-style-type: none;
+      margin-bottom: 24px;
+    }
+    
+    
+    .form-select{
+      /* position: relative;
+      top: 200px;
+      padding: 20px;
+      
+      
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 6px 18px 6px 20px;
+    gap: 24px;
+    position: relative;
+    width: 120px;
+    height: 33px;
+    background: #FFFFFF;
+    border: 1px solid #ADADAD;
+    border-radius: 6px;
+    border-radius: 10px;
+    top: 140px;
+    }
+    
+    .icon-footer{
+      position: relative;
+      top: 3px;
+    }
+    /*  */
+
+
+    footer {
+      width: 1280px;
+      margin: 0 auto;
+      margin-top: 650px;
+      }
+      
+      .footer-box{
+        width: 1280px;
+      
+      }
+      
+      .logo-footer{
+        width: 120px;
+        height: 70px;
+        position: relative;
+        top: 106px;
+      }
+      .flex-footer{
+        display: flex;
+        justify-content: center;
+      }
+      
+      .list-footer{
+        margin-left: 36px;
+        position: relative;
+        bottom: 18px;
+        left: 95px;
+      
+      }
+      
+      .item-list{
+        font-size: 14px;
+        color: #545454;
+        list-style-type: none;
+        cursor: pointer;
+        margin-top: 12px;
+        /* 24 */
+      }
+      
+      
+      .item-list-color{
+        color: #000;
+        list-style-type: none;
+        margin-bottom: 24px;
+      }
+      
+      
+      .form-select{
+        /* position: relative;
+        top: 200px;
+        padding: 20px;
+        
+        
+      /* Auto layout */
+      
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 6px 18px 6px 20px;
+      gap: 24px;
+      position: relative;
+      width: 120px;
+      height: 33px;
+      background: #FFFFFF;
+      border: 1px solid #ADADAD;
+      border-radius: 6px;
+      border-radius: 10px;
+      top: 140px;
+      }
+      
+      .icon-footer{
+        position: relative;
+        top: 3px;
+      }
+  
+  
+  
+  /*section 3*/

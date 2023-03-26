@@ -1,0 +1,419 @@
+body{
+  font-family: 'Inter', sans-serif;
+
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    top: 90%;
+    left: 0px;
+    height: 200px;
+    padding-top: 10px;
+  }
+  
+  
+  .drop-link-color{
+    color: #ffffff;
+  }
+  
+  .drop-link-color:hover{
+    color: #3f3f3f;
+  }
+  
+  .dropdown-one{
+    display: none;
+    position: absolute;
+    height: 200px;
+    padding-top: 10px;
+    left: 0;
+    top: 90%;
+  }
+
+
+  
+  .dropdown-two{
+    display: none;
+    position: absolute;
+    top: 90%;
+    height: 200px;
+    padding-top: 10px;
+    left: 0;
+  }
+  
+  .dropdown-tree{
+    display: none;
+    position: absolute;
+    top: 90%;
+    height: 200px;
+    padding-top: 10px;
+    left: 0;
+  }
+  
+  
+  
+  nav ul li:hover > ul {
+    display:inherit;
+  }
+  
+  
+  nav  ul ul li {
+    min-width:170px;
+    float:none;
+    display:list-item;
+    position: relative;
+    list-style-type: none;
+    margin-top: 5px;
+    font-size: 13px;
+  }
+  
+  
+  
+  header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    margin: 0 auto; 
+    display: flex;
+    top: 0;
+    z-index: 1200;
+    background-attachment: fixed;
+    background-image: url(./img/unsplash_93F3aiv_ioM.svg);
+
+  }
+  
+  
+  
+  a{
+    text-decoration: none;
+    color: #BDBDBD;
+  }
+  .navbar{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+  }
+  
+  
+  .list .list-item{
+    display: inline;
+    cursor: pointer;
+    margin-left: 61px;
+    color: #FFFF;
+  }
+  
+
+  .list-item{
+    position: relative;
+    top: 20px;
+  }
+
+
+
+  
+  #text-width{
+    width: 680px;
+  }
+  
+  
+  .button-login {
+    color: #ffffff;
+    text-decoration: none;
+    position: relative;
+    top: 16px;
+    left: 250px;
+  
+  }
+  .button-demo {
+    background-color: #00ADD4;
+    width: 126px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    color: #FFFF;
+    border-radius: 2px;
+    position: relative;
+    left: 305px;
+    top: 7px;
+  }
+
+
+
+
+.main {
+    background-image: url(./img/unsplash_93F3aiv_ioM.svg);
+    background-attachment: fixed;
+    width: 100%;
+    height: 688px;
+}
+.main_content_tittle p {
+    font-size: 104px;
+    color: white;
+    padding-top: 195px;
+}
+.main_content_tittle {
+    width: 1280px;
+    margin: 0 auto;
+}
+.main_content_scroll {
+    width: 1280px;
+    margin: 0 auto;
+}
+.main_content_scroll_block {
+    margin-top: 271px;
+    display: flex;
+    justify-content: center;
+
+}
+.main_content_scroll_block svg {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+.sector_one {
+    width: 1280px;
+}
+
+.sector_one {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.sector_one_el-block_text_border { /*подчеркивание снизу*/
+    border-bottom: solid 1px #BDBDBD;
+    width: 461px;
+    margin-top: 20px;
+}
+
+.sector_one_el-block {
+    display: flex;
+    /*justify-content: center;*/
+    margin-left: 62px;
+    margin-top: 100px;
+}
+.sector_one_el-block_img img {
+    width: 681px;
+    height: 470px;
+    margin-left: 15px;
+}
+
+.sector_one_el-block_text_01 {
+    display: flex;
+    margin-top: 20px;
+    color: #545454;
+    justify-content: space-between;
+    line-height: 23px;
+}
+.sector_one_el-block_text_01_num {
+    color: #00ADD4;
+}
+.sector_one_el-block_text {
+    margin-top: 15px;
+}
+
+
+
+
+.row {
+    width: 100%;
+    height: 160px;
+    background-color: #FBFBFB;
+    margin-top: 94px;
+}
+.row_block {
+    height: 160px;
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    color: #545454;
+    justify-content: center;
+}
+.row_block .svg {
+   
+}
+.row_block p {
+    margin-left: 28px;
+}
+
+
+
+
+/*section 2 */
+
+.sector_two {
+    margin: 0 auto;
+    width: 1280px;
+}
+.sector_two h1 {
+    font-weight: 700;
+    font-size: 42px;    
+    margin-top: 97px;
+    margin-left: 62px;
+}
+
+
+
+.sector_two_row1  {
+    margin: 0 auto;
+    width: 1280px;
+    display: flex;
+    justify-content: center;
+    margin-top: 46px;
+
+}
+.sector_two_row2 {
+    margin: 0 auto;
+    width: 1280px;
+    display: flex;
+    justify-content: center;
+    margin-top: -24px;
+}
+
+
+
+
+.sector_two_row1 svg, .sector_two_row2 svg {
+    width: 242px;
+    height: 224px;
+}
+.sector_two_row1_block, .sector_two_row2_block {
+    width: 242px;
+    height: 224px;
+    box-shadow: 0px 9px 55px 9px rgba(187, 187, 187, 0.25);
+    border-radius: 39px;
+    margin: 24px;
+}
+.sector_two_row2_block_svg svg {
+    width: 226px;
+    height: 215px;
+    margin-left: 10px; 
+}
+
+/*section 2 end*/
+
+
+/*section 3*/
+
+
+.sector_three {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.sector_three_block {
+    display: flex;
+    justify-content: center;
+    margin-top: 194px;
+}
+.sector_three_block_img img {
+    width: 476px;
+    height: 586px;
+   /* margin-left: 62px;*/
+}
+.sector_three_block_img svg {
+    margin-left: 66px;
+    margin-top: 45px;
+}
+
+.sector_three_block_text svg {
+    margin-left: 65px;
+    margin-top: 1px;
+    width: 444px;
+    height: 590px;
+
+}
+
+
+
+footer {
+    width: 1280px;
+    margin: 0 auto;
+    }
+    
+    .footer-box{
+      width: 1280px;
+    
+    }
+    
+    .logo-footer{
+      width: 120px;
+      height: 70px;
+      position: relative;
+      top: 106px;
+    }
+    .flex-footer{
+      display: flex;
+      justify-content: center;
+    }
+    
+    .list-footer{
+      margin-left: 36px;
+      position: relative;
+      bottom: 18px;
+      left: 95px;
+    
+    }
+    
+    .item-list{
+      font-size: 14px;
+      color: #545454;
+      list-style-type: none;
+      cursor: pointer;
+      margin-top: 12px;
+      /* 24 */
+    }
+    
+    
+    .item-list-color{
+      color: #000;
+      list-style-type: none;
+      margin-bottom: 24px;
+    }
+    
+    
+    .form-select{
+      /* position: relative;
+      top: 200px;
+      padding: 20px;
+      
+      
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 6px 18px 6px 20px;
+    gap: 24px;
+    position: relative;
+    width: 120px;
+    height: 33px;
+    background: #FFFFFF;
+    border: 1px solid #ADADAD;
+    border-radius: 6px;
+    border-radius: 10px;
+    top: 140px;
+    }
+    
+    .icon-footer{
+      position: relative;
+      top: 3px;
+    }
+
+
+
+/*section 3*/
+
