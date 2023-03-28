@@ -1031,6 +1031,7 @@ z-index: -1;
 .checkbox-terms a {
     color: #00ADD4;
     text-decoration: underline;
+    cursor: pointer;
 
 }
 .checkbox-terms {
@@ -2091,6 +2092,10 @@ z-index: -1;
 }
 .form-margin-two {
     margin-top: 16px;
+
+}
+.form-margin-two label {
+    cursor: pointer;
 }
 .form_margin label:nth-child(2) {
     margin-left: 20px;
